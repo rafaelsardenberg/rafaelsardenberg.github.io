@@ -1,0 +1,13 @@
+/* Alerta */
+
+.alerta {
+	position: fixed;
+    z-index: 100;    
+	top: 60px;
+	right: 20px;
+	color: var(--gray);
+    display: flex!important;	
+	text-align: center;	
+	border: 1px solid var(--medium-gray);
+	border-radius: .15rem;    
+}

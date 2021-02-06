@@ -1,0 +1,42 @@
+/*Cards*/
+
+.card {
+	height: 100%;
+	/* border: none; */
+	border-radius: .25rem !important;
+	padding: 0!important;
+}
+
+.card.border-top-blue {
+	border-top: .3rem solid !important;
+	border-top-color: var(--blue) !important;
+}
+
+.card.border-top-dark-green {
+	border-top: .3rem solid !important;
+	border-top-color: var(--dark-green) !important;
+}
+
+.card.border-top-yellow {
+	border-top: .3rem solid !important;
+	border-top-color: var(--yellow) !important;
+}
+
+.card.border-top-gray {
+	border-top: .3rem solid !important;
+	border-top-color: var(--medium-gray) !important;
+}
+
+.card-footer {
+    background-color: transparent;
+}
+
+.card-img-top {
+    height: 9rem;
+    object-fit: cover;
+    transition: all .3s ease;
+}
+
+.card-img-top:hover {
+    transform: scale(1.1);
+}

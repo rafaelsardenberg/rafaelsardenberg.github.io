@@ -1,0 +1,110 @@
+/*Buttons*/
+
+.btn-xl {
+	padding: 1.3rem 2rem;
+    font-size: 1.25rem !important;
+}
+
+.btn {
+	border-radius: .15rem;
+    text-transform: uppercase;
+    font-weight: 600 !important;
+    font-size: 0.9rem;
+    transition: 0.2s cubic-bezier(0.55, 0, 0.1, 1) !important;
+}
+
+.btn:hover {
+	transform: scale(1.05);
+}
+
+.btn-circle {
+	border-width: 2px;
+	border-radius: 50% !important;
+}
+
+.btn-no-scale:hover {
+	transform: scale(1) !important;
+}
+
+.btn-blue, .btn-blue:hover, .btn-blue:active {
+	color: #fff !important;
+	background-color: var(--blue) !important;
+	border-color: var(--blue) !important;
+}
+
+.btn-green, .btn-green:hover, .btn-green:active {
+	color: #fff !important;
+	background-color: var(--green) !important;
+	border-color: var(--green) !important;
+}
+
+.btn-dark-green, .btn-dark-green:hover, .btn-dark-green:active {
+	color: #fff !important;
+	background-color: var(--dark-green) !important;
+	border-color: var(--dark-green) !important;
+}
+
+.btn-yellow, .btn-yellow:hover, .btn-yellow:active {
+	color: var(--black) !important;
+	background-color: var(--yellow) !important;
+	border-color: var(--yellow) !important;
+}
+
+.btn-red, .btn-red:hover, .btn-red:active {
+	color: #fff !important;
+	background-color: var(--red) !important;
+	border-color: var(--red) !important;
+}
+
+.btn-outline-red, .btn-outline-red:hover, .btn-outline-red:active {
+	color: var(--red) !important;
+	border-color: var(--red) !important;
+}
+
+.btn-light-blue, .btn-light-blue:hover, .btn-light-blue:active {
+	color: var(--black) !important;
+	background-color: var(--light-blue) !important;
+	border-color: var(--light-blue) !important;
+}
+
+.btn-gray, .btn-gray:hover, .btn-gray:active {
+	color: #fff !important;
+	background-color: var(--gray) !important;
+	border-color: var(--gray) !important;
+}
+
+.btn-outline-gray {
+	color: var(--gray) !important;
+    border-color: var(--gray) !important;
+}
+
+.btn-outline-dark-green {
+	color: var(--dark-green) !important;
+    border-color: var(--dark-green) !important;
+}
+
+.btn-outline-dark-green:hover, .btn-outline-dark-green:active {
+	color: var(--dark-green) !important;
+    border-color: var(--dark-green) !important;
+}
+
+.btn-outline-blue {
+	color: var(--blue) !important;
+    border-color: var(--blue) !important;
+}
+
+.btn-outline-blue:hover {
+	color: var(--blue) !important;
+    border-color: var(--blue) !important;
+}
+
+.btn-outline-blue.active {
+	color: #fff !important;
+	background-color: var(--blue) !important;
+	border-color: var(--blue) !important;
+}
+
+.btn-outline-white, .btn-outline-white:hover, .btn-outline-white:active {
+	color: #fff !important;
+	border-color: #fff !important;
+}
