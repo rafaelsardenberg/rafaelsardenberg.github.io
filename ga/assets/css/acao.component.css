@@ -1,0 +1,7 @@
+.tab-ind td, .tab-ind th {
+    white-space: nowrap;
+}
+
+#cotacao {
+	border-radius: .25rem;
+}
